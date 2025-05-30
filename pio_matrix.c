@@ -151,7 +151,7 @@ int main()
 
     bool desenhou_alguma_animacao = false;
 
-    // Animação do botão 0 (Coração pulsante vermelho)
+    // Animação do botão 0 (Letras)
     if (animacao_ativa_0) {
         desenho_pio(animacao_botao0.frames[frame_atual_0], pio, sm, 1.0, 0.0, 0.0);
         frame_atual_0++;
@@ -178,7 +178,7 @@ int main()
         desenho_pio(desenho, pio, sm, 0.0, 0.0, 0.0);
     }
 
-    sleep_ms(100); // pequeno atraso entre frames, ajuste conforme necessário
+    sleep_ms(1000); // pequeno atraso entre frames, ajuste conforme necessário
 }
 
 }
